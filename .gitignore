@@ -1,0 +1,7 @@
+my-app/node_modules/.cache/*
+my-app/node_modules/.cache/default-development/*
+my-app/node_modules/.cache/default-development/13.pack
+my-app/node_modules/.cache/default-development/0.pack
+my-app/node_modules/.cache/default-development/index.pack
+my-app/node_modules/.cache/default-development/index.pack.old
+my-app/node_modules/.cache/.eslintcache
