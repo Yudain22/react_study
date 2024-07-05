@@ -1,6 +1,7 @@
 import React from "react";
 import Comment from "./Comment";
 
+//props로 데이터 넣기
 function CommentList(props) {
     return (
         <div>
