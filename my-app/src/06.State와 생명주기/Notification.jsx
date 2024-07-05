@@ -18,16 +18,16 @@ const styles= {
 class Notification extends React.Component {
     constructor(props) {
         super(props);
-        this.state={}
+        this.state={};
 }
 componentDidMount(){
-    console.log("componentDidMount() called");
+    console.log(`${this.props.id} componentDidMount() called`);
 }
 componentDidUpdate(){
-    console.log("componentDidUpdate() called");
+    console.log(`${this.props.id} componentDidUpdate() called`);
 }
 componentWillUnmount(){
-    console.log("componentWillUnmount() called");
+    console.log(`${this.props.id} componentWillUnmount() called`);
 }
 render(){
     return(
