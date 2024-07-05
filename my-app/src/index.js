@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Library from './03.JSX소개/Library';
 import Clock from './04.엘리먼트 렌더링/Clock';
 import CommentList from './05.컴포넌트와 Props/CommentList';
+import NotificationList from './06.State와 생명주기/NotificationList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // setInterval(()=> {
@@ -15,7 +16,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
       {/* <App /> */}
       {/* <Library/> */}
       {/* <Clock/> */}
-      <CommentList/>
+      {/* <CommentList/> */}
+      <NotificationList/>
     </React.StrictMode>
   );
 // },1000);
